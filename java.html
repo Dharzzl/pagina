@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<link rel="stylesheet" href="estilos.css">
+<link rel="stylesheet" href="https://necolas.github.io/normalize.css/3.0.2/normalize.css">
+	
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/custom.css" rel="stylesheet">
+<link href="css/bootstrap-responsive.css" rel="stylesheet">
+
+
+<style type="text/css">
+
+
+	#full-screen-background-image {
+		z-index: -999;
+		width: 100%;
+		height: auto;
+		position: fixed;
+		top: 0;
+		left: 0;
+	}
+</style>
+	
+
+	<title>Lista</title>
+
+</head>
+<body>
+
+	<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				</a>
+				<div class="nav-collapse collapse">
+					
+					<ul class="nav leftmenu">
+						
+						<li><a href="index.html">Inicio</a></li>
+						<li><a href="java.html">Agregar Comic</a></li>
+	
+						
+					</ul>
+					
+					<ul class="nav rightmenu">
+						<li><a href="libro.html">Leer Comics</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+					
+				<a class="brand logo" href="#">Mundo<br/> Comics</a>
+				
+			</div>
+		</div>
+		</div>
+	</div>
+
+	<div class="container">
+	<div class="principal">
+		<div class="wrap">
+			<form class="formulario" action="">
+				<input type="text" id="tareaInput" placeholder="Agrega un Comics">
+				<input type="button" class="boton" id="btn-agregar" value="Agregar">
+			</form>
+		</div>
+	</div>
+
+	<div class="tareas" >
+		
+		<img alt="full screen background image" src="img/slider/66190.jpg" id="full-screen-background-image" /> 
+    
+  
+		
+		
+		<div class="wrap">
+			
+			<ul class="lista" id="lista">
+				<li><a href="#">Spiderman Muerte de Gwen</a></li>
+				<li><a href="#">Superman Vuelta a kripton</a></li>
+				<li><a href="#">Batman muerte de Robin</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+	<script src="main.js"></script>
+</body>
+</html>
